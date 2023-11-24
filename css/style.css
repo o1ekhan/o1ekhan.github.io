@@ -1,0 +1,94 @@
+body {
+    background: linear-gradient(90deg, rgba(32,0,59,1) 0%, rgba(15,23,42,1) 35%);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header{
+    height: 110px;
+}
+
+.nav-link {
+    color:#E5E2FF;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #c4c1dd;
+}
+
+.card-text {
+    color: #767676;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-title {
+    color: #0F172A; 
+    font-family: Nunito; 
+    font-weight:700; 
+    font-size: 22px;
+}
+
+.contact_title {
+    color: #5380EA;
+    font-family: Nunito;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.contact_para {
+    color: #475569;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+textarea {
+    width: 447px; /* Ширина поля в процентах */
+    height: 95px; /* Высота поля в пикселах */
+    resize: none;
+}
+
+.quiz-ul{
+    list-style: none;
+    padding: 0;
+}
+
+.quiz-box{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 700px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.quiz-header{
+    padding: 64px;
+}
+
+.quiz-btn{
+    background: #5380EA;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    padding: 15px;
+    transition: all 0.5s ease;
+}
+.quiz-btn:hover, .quiz-btn:focus{
+    background-color: #0b5ed7;
+}
+.quiz-btn:focus{
+    outline: none;
+    background-color: #0a58ca;
+}
+
+.quiz-li{
+    margin-bottom: 10px;
+}
